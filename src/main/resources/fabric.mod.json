@@ -3,18 +3,18 @@
 	"id": "scrollable_tooltips",
 	"version": "${version}",
 	"name": "Scrollable Tooltips",
-	"description": "",
-	"authors": [],
-	"contact": {},
+	"description": "Adds the ability to scroll through tooltips that are larger than the screen",
+	"authors": ["ADON15"],
+	"contact": {
+		"issues": "https://github.com/ADON15c/Scrollable-Tooltips/issues",
+		"sources": "https://github.com/ADON15c/Scrollable-Tooltips"
+	},
 	"license": "MIT",
 	"icon": "assets/scrollable_tooltips/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"client": [
 			"net.adon15.scrollable_tooltips.client.Scrollable_tooltipsClient"
-		],
-		"main": [
-			"net.adon15.scrollable_tooltips.Scrollable_tooltips"
 		]
 	},
 	"mixins": [
